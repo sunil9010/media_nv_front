@@ -1,0 +1,77 @@
+.logo-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.option {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 25px;
+}
+.option-name {
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin-left: 8.5px;
+  color: #413e3e;
+  font-weight: 400;
+}
+.logo {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 7px;
+  font-weight: 500;
+  color: #252323;
+}
+.sidebar-container {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* background-color: burlywood; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 15vw;
+  height: 100%;
+  padding-top: 10px;
+}
+.main {
+  margin: 0 auto;
+}
+.options-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 92vh;
+  margin-top: 8px;
+}
+.icon {
+  color: #888888;
+}
+.add {
+  display: flex;
+  align-items: center;
+}
+.options-main {
+  list-style-type: none;
+}
+.selected {
+  background-color: #e7f7ff;
+  border-radius: 25px;
+  height: 30px;
+}
+.selected.option-name {
+  color: #22b1f6;
+}
+.selected .icon {
+  color: #22b1f6;
+}

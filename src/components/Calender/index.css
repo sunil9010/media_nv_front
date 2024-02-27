@@ -1,0 +1,28 @@
+.responded {
+  color: #47a974;
+}
+.unresponded {
+  color: #ef3b3b;
+}
+.live {
+  color: #383838;
+}
+.filter {
+  color: #3cbbf8;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calender-items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.custom-date-picker {
+  padding: 6px;
+  border-radius: 5px;
+}

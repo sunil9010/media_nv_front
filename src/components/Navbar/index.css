@@ -1,0 +1,53 @@
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+}
+
+.navbar-options {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #b6b2b2;
+}
+
+.navbar-option {
+  cursor: pointer;
+}
+
+.navbar-option.select {
+  border-bottom-style: solid;
+  border-color: #345585;
+  border-radius: 0px;
+  background-color: none;
+  border-width: 3px;
+  color: #345585;
+}
+.person {
+  display: flex;
+  align-items: center;
+}
+.go {
+  background-color: #555;
+  border-radius: 50px;
+  height: 22px;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.goperson {
+  color: #ffffff;
+}

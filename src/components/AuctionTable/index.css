@@ -1,0 +1,195 @@
+.table-container {
+  margin: 20px;
+  width: 100%;
+}
+
+.auction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.auction-table th,
+.auction-table td {
+  padding: 8px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auction-table th {
+  background-color: #113870;
+
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.auction-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.auction-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.auction-table button {
+  color: #637ca1;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.bidnumber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.span {
+  color: #acacac;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+* {
+  font-family: 'Roboto';
+}
+.city {
+  display: flex;
+  flex-direction: column;
+}
+.arrow {
+  font-size: 8px;
+}
+
+.bid-details {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+.location {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.loading-point {
+  margin-bottom: 10px;
+}
+
+.bid-info {
+  margin-bottom: 10px;
+}
+
+.vehicle-info {
+  margin-bottom: 10px;
+}
+
+.remarks {
+  font-style: italic;
+}
+.maps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.line {
+  display: flex;
+  flex-direction: column;
+}
+hr {
+  height: 35px;
+  margin: 0px;
+}
+
+.RiMapPinFill {
+  color: red;
+  font-size: 20px;
+}
+.from {
+  margin: 0px;
+}
+.bidno {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.bidspan {
+  color: #8d9294;
+}
+.loading {
+  color: green;
+  margin-top: 4px;
+}
+.loadingspan {
+  color: #8d9294;
+  font-size: 12px;
+}
+.location {
+  color: #8d9294;
+}
+.unloading {
+  color: red;
+  margin-top: 0px;
+}
+.align-maps {
+  display: flex;
+  align-items: center;
+}
+.from-loading {
+  margin-bottom: 0px;
+}
+.assigned {
+  color: #113870;
+  font-size: 14px;
+}
+.assigned-staff {
+  color: #52b8e9;
+}
+.icon-call {
+  color: #113870;
+  margin-right: 5px;
+}
+.vechile-load {
+  color: '#43484a';
+  font-size: 16px;
+  font-weight: 500;
+}
+.cng {
+  background-color: rgb(35, 177, 59);
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 2px;
+}
+.material-container {
+  display: flex;
+  align-items: center;
+}
+.weight {
+  margin-left: 8px;
+}
+.common {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.all-travel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #e7f7ff;
+  border-radius: 10px;
+}
+.tr-element {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
